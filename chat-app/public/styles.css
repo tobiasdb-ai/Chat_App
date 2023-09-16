@@ -1,0 +1,77 @@
+* {
+    /* ↓ Now literally all elements display a sans-serif font */
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    padding-right: 30%;
+    padding-left: 30%; 
+    background-color: rgb(224, 224, 224)
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#messages {
+height: 300px;
+overflow: hidden;
+border-radius: 12px;
+border: 2px solid #000000;
+background: #ffffff;
+padding: 10px;
+border-radius: 25px;
+}
+
+.received {
+color: blue;
+display: flex;
+max-width: calc(100% - 67px);
+overflow-wrap: break-word;
+
+}
+
+.sent {
+padding-right: 0;
+margin-right:0;
+color: green;
+flex: 1;
+display: flex;
+flex-direction: row-reverse;
+max-width: calc(100% - 67px);
+overflow-wrap: break-word;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+}
+
+
+
+button {
+    background-color: #3CBC8D; /* Green */
+    border: none;
+    color: white;
+    padding: 18px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float:right;
+  }
+
+footer {
+    padding:0;
+    margin:0;
+}

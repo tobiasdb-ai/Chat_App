@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+
+  <body>
+    <h1>MQTT Chat App</h1>
+    <h4 id="userfield">Your username is: </h4>
+    <h4 id="idfield">Your ID is: </h4>
+    <ul id="messages"></ul>
+    <form>
+      <input type="text" id="message" placeholder="Type a message...">
+      <button type="submit">Send</button>
+    </form>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.2.7/mqtt.min.js"></script>
+    <script src="./app.js"></script>
+      <!-- Footer -->
+  <footer class="bg-white">
+    <!-- Copyrights -->
+    <div class="bg-light py-4">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">© 2023 Tobias de Bildt, 1023603, TINNES01</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End -->
+  </body>
+</html>
